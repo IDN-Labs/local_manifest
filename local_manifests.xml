@@ -46,3 +46,8 @@
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="gio" revision="audio-msm8996-s" />
         <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="Venyx" revision="sc-v12.1-wlan" />
 
+        <!-- Remote -->
+        <remove-project name="android_system_libhidl" />
+        <project path="system/libhidl" name="android_system_libhidl" remote="Venyx" revision="arrow-13.0" />
+
+</manifest>
