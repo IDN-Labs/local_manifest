@@ -8,7 +8,7 @@
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="Venyx" revision="arrow-13.0" />
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Venyx" revision="sc-v13.0" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="Venyx" revision="need" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_ysl" remote="Venyx" revision="need" />
         <project path="vendor/xiaomi/" name="vendor_xiaomi_ysl" remote="Venyx" revision="sc-v13.0" />
 
         <!-- HALS -->
