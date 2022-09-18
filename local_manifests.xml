@@ -4,6 +4,7 @@
         <!-- Remote -->
         <remote name="Venyx" fetch="https://github.com/OhMyVenyx" clone-depth="1" />
         <remote name="Venyx-gitlab" fetch="https://gitlab.com/OhMyVenyx" clone-depth="1" />
+        <remote name="IDN-Labs" fetch="https://github.com/IDN-Labs" clone-depth="1" />
 
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="Venyx" revision="arrow-13.0" />
@@ -41,20 +42,18 @@
             <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
             <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
         </project>
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf" remote="Venyx" revision="display-msm8996-s" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf" remote="Venyx" revision="media-msm8996-s" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="Venyx" revision="audio-msm8996-s" />
-        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="Venyx" revision="sc-v13.0-wlan" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="IDN-Labs" revision="13" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="IDN-Labs" revision="13" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="IDN-Labs" revision="13" />
+        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="IDN-Labs" revision="13" />
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="IDN-Labs" revision="13" />
 
         <!-- Fork -->
         <remove-project name="android_system_libhidl" />
-        <project path="system/libhidl" name="android_system_libhidl" remote="Venyx" revision="arrow-13.0" />
-
-        <!-- Hardware -->
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Venyx" revision="sc-v13.0" />
+        <project path="system/libhidl" name="system_libhidl" remote="IDN-Labs" revision="arrow-13.0" />
 
         <!-- External -->
-        <project path="external/libbfqio" name="platform_external_libbfqio" remote="Venyx" revision="master" />
+        <project path="external/libbfqio" name="external_libbfqio" remote="IDN-Labs" revision="master" />
 
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-r433403b" name="clang-r433403b" remote="Venyx-gitlab" revision="master" />
