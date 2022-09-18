@@ -44,7 +44,7 @@
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf" remote="gio" revision="display-msm8996-s" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf" remote="gio" revision="media-msm8996-s" />
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="gio" revision="audio-msm8996-s" />
-        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="Venyx" revision="sc-v12.1-wlan" />
+        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="Venyx" revision="sc-v13.0-wlan" />
 
         <!-- Fork -->
         <remove-project name="android_system_libhidl" />
