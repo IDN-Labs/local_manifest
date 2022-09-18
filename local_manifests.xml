@@ -53,4 +53,7 @@
         <!-- Hardware -->
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Venyx" revision="tiramisu" />
 
+        <!-- External -->
+        <project path="external/libbfqio" name="platform_external_libbfqio" remote="Venyx" revision="master" />
+
 </manifest>
