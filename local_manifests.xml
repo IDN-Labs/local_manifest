@@ -4,7 +4,6 @@
         <!-- Remote -->
         <remote name="Venyx" fetch="https://github.com/OhMyVenyx" clone-depth="1" />
         <remote name="Venyx-gitlab" fetch="https://gitlab.com/OhMyVenyx" clone-depth="1" />
-        <remote name="gio" fetch="https://github.com/ItsVixano" clone-depth="1" />
 
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="Venyx" revision="arrow-13.0" />
@@ -42,9 +41,9 @@
             <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
             <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
         </project>
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf" remote="gio" revision="display-msm8996-s" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf" remote="gio" revision="media-msm8996-s" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="gio" revision="audio-msm8996-s" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf" remote="Venyx" revision="display-msm8996-s" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf" remote="Venyx" revision="media-msm8996-s" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="Venyx" revision="audio-msm8996-s" />
         <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="Venyx" revision="sc-v13.0-wlan" />
 
         <!-- Fork -->
