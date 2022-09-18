@@ -51,7 +51,7 @@
         <project path="system/libhidl" name="android_system_libhidl" remote="Venyx" revision="arrow-13.0" />
 
         <!-- Hardware -->
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Venyx" revision="tiramisu" />
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Venyx" revision="sc-v13.0" />
 
         <!-- External -->
         <project path="external/libbfqio" name="platform_external_libbfqio" remote="Venyx" revision="master" />
