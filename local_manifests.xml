@@ -43,4 +43,7 @@
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="IDN-Labs" revision="12.1" />
         <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="IDN-Labs" revision="12.1" />
 
+        <!-- External -->
+        <project path="external/libbfqio" name="external_libbfqio" remote="IDN-Labs" revision="master" />
+
 </manifest>
