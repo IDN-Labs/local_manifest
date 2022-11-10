@@ -6,9 +6,9 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="IDN-Labs" revision="nad-12.1" />
-        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="IDN-Labs" revision="nad-12.1" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="IDN-Labs" revision="sc-v12.1" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="IDN-Labs" revision="sc-v12.1" />
-        <project path="vendor/xiaomi/" name="vendor_xiaomi" remote="IDN-Labs" revision="xdroid-12.1" />
+        <project path="vendor/xiaomi/" name="vendor_xiaomi" remote="IDN-Labs" revision="sc-v12.1" />
 
         <!-- HALS -->
         <remove-project name="android_hardware_qcom-caf_wlan" />
