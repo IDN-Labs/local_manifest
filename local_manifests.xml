@@ -5,8 +5,16 @@
         <remote name="IDN-Labs" fetch="https://github.com/IDN-Labs" clone-depth="1" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="IDN-Labs" revision="bootleg" />
+        <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="IDN-Labs" revision="qassa" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="IDN-Labs" revision="10-caf" />
         <project path="vendor/xiaomi/" name="vendor_xiaomi" remote="IDN-Labs" revision="sc-v10.0" />
+
+        <!-- Hals -->
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="IDN-Labs" revision="10" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="IDN-Labs" revision="10" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="IDN-Labs" revision="10" />
 
 </manifest>
