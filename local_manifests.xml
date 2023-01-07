@@ -5,14 +5,14 @@
         <remote name="IDN-Labs" fetch="https://github.com/IDN-Labs" clone-depth="1" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="IDN-Labs" revision="13.0-evox" />
+        <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="IDN-Labs" revision="13.0-bootleg" />
         <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="IDN-Labs" revision="pixthermal" />
         <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="IDN-Labs" revision="13.0" />
 
         <!-- HALS -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <remove-project name="hardware_qcom-caf_sm8150_display" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_display" remote="IDN-Labs" revision="13.0-sm8150" />
         <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_media" remote="IDN-Labs" revision="13.0-sm8150" />
         <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_audio" remote="IDN-Labs" revision="13.0-sm8150" />
