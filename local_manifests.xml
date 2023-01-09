@@ -17,4 +17,7 @@
         <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_media" remote="IDN-Labs" revision="13.0-sm8150" />
         <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_audio" remote="IDN-Labs" revision="13.0-sm8150" />
 
+        <!-- Hardware -->
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="IDN-Labs" revision="13-vayu" />
+
 </manifest>
