@@ -13,6 +13,7 @@
         <project path="kernel/xiaomi/juice" name="kernul_juice-new" remote="OhMyVenyx" revision="mistyx-new" />
 
         <!-- Additional -->
+        <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r445002" />
         <remove-project name="crdroidandroid/android_packages_apps_Settings" />
         <project path="packages/apps/Settings" name="crdroid-android_packages_apps_Settings" remote="OhMyVenyx" revision="11.0" />
         <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="Lynx" revision="snow" />
