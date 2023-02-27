@@ -2,21 +2,17 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="Venyx-gitlab" fetch="https://gitlab.com/OhMyVenyx" clone-depth="1" />
         <remote name="IDN-Labs" fetch="https://github.com/IDN-Labs" clone-depth="1" />
-        <remote name="OhMyVenyx" fetch="https://github.com/OhMyVenyx" clone-depth="1" />
         <remote name="Lynx" fetch="https://github.com/lynnnnzx" clone-depth="1" />
+        <remote name="gf" fetch="https://github.com/greenforce-project" clone-depth="1" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice-r" remote="Lynx" revision="crdroid" />
+        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice-r" remote="Lynx" revision="caf" />
         <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="Lynx" revision="twelve" />
-        <project path="kernel/xiaomi/juice" name="kernul_juice-new" remote="OhMyVenyx" revision="mistyx-new" />
+        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="sc-qpr3" />
 
         <!-- Additional -->
-        <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r445002" />
-        <remove-project name="crdroidandroid/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="crdroid-android_packages_apps_Settings" remote="OhMyVenyx" revision="11.0" />
-        <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="Lynx" revision="snow" />
+        <remove-project name="xRageTC-clang" />
 
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Lynx" revision="master" />
