@@ -11,10 +11,4 @@
         <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="Lynx" revision="twelve" />
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="sc-qpr3" />
 
-        <!-- Additional -->
-        <remove-project name="xRageTC-clang" />
-
-        <!-- Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Lynx" revision="master" />
-
 </manifest>
