@@ -9,6 +9,6 @@
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice-r" remote="Lynx" revision="caf" />
         <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="Lynx" revision="twelve" />
-        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="sc-qpr3" />
+        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" />
 
 </manifest>
