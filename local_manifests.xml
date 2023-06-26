@@ -2,13 +2,12 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="IDN-Labs" fetch="https://github.com/IDN-Labs" clone-depth="1" />
-        <remote name="Lynx" fetch="https://github.com/lynnnnzx" clone-depth="1" />
-        <remote name="gf" fetch="https://github.com/greenforce-project" clone-depth="1" />
+        <remote name="OhMyVenyx" fetch="https://github.com/OhMyVenyx" clone-depth="1" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice-r" remote="Lynx" revision="caf" />
-        <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="Lynx" revision="twelve" />
-        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" />
+        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="OhMyVenyx" revision="eleven" />
+        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="OhMyVenyx" revision="eleven" />
+        <project path="vendor/xiaomi/" name="vendor_whyred" remote="OhMyVenyx" revision="eleven" />
+        <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="OhMyVenyx" revision="eleven" />
 
 </manifest>
