@@ -18,4 +18,7 @@
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="OhMyVenyx" revision="eleven"/>
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="OhMyVenyx" revision="eleven"/>
 
+        <!-- Toolchain -->
+        <remove-project name="xRageTC-clang"/>
+
 </manifest>
