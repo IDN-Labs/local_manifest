@@ -24,4 +24,13 @@
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-r433403b" name="clang-r433403b" remote="Venyx-gitlab" revision="master" />
 
+        <remove-project name="vendor_firmware" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
+        <remove-project name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" />
+
 </manifest>
