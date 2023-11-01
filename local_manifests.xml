@@ -4,6 +4,7 @@
         <!-- Remote -->
         <remote name="Venyx-gitlab" fetch="https://gitlab.com/OhMyVenyx" clone-depth="1" />
         <remote name="IDN-Labs" fetch="https://github.com/IDN-Labs" clone-depth="1" />
+        <remote name="OhMyVenyx" fetch="https://github.com/OhMyVenyx" clone-depth="1" />
 
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="IDN-Labs" revision="evox-13.0" />
@@ -23,6 +24,9 @@
 
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-r433403b" name="clang-r433403b" remote="Venyx-gitlab" revision="master" />
+
+        <remove-project name="system_extras" />
+        <project path="system/extras" name="system_extras-evo" remote="OhMyVenyx" revision="tiramisu" />
 
         <remove-project name="vendor_firmware" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
