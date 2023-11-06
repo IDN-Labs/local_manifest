@@ -23,7 +23,7 @@
         <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="IDN-Labs" revision="13" />
 
         <!-- Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r433403b" name="clang-r433403b" remote="Venyx-gitlab" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="clang-r498229b" remote="Venyx-gitlab" revision="master" />
 
         <remove-project name="system_extras" />
         <project path="system/extras" name="system_extras-evo" remote="OhMyVenyx" revision="tiramisu" />
